@@ -62,7 +62,7 @@
 </template>    
   
 <script>
-import {Stayhome} from  './components/Stayhome.vue'
+import Stayhome from  './components/Stayhome.vue'
   export default {
     name: 'app',
     data: () => ({

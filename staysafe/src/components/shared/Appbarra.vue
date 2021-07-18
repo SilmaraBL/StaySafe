@@ -27,7 +27,7 @@
           </v-list-item>
         </router-link>
            
-           <router-link to="/quem-Somos">
+           <router-link to="/Objetivo">
           <v-list-item>
             <v-list-item-icon>
               <v-icon>mdi-chart-bubble</v-icon>

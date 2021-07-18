@@ -9,10 +9,10 @@
 </template>    
   
 <script>
-import Appbarra from './components/shared/Appbarra.vue'
+ import Appbarra from './components/shared/Appbarra'
   export default {
     name: 'app',
-    components: {
+   components: {
     Appbarra
     }
   };

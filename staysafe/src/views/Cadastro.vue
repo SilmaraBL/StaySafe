@@ -9,8 +9,8 @@
       Para se cadastrar basta enviar:
     </h2>
     <p>
-      Nome completo | Endereço completo | Data de nascimento | (Enviar para
-      staysafe@gmail.com clicando no botão abaixo)
+      Nome completo | Endereço completo | Data de nascimento |   
+    (Enviar para staysafe@gmail.com clicando no botão abaixo)
     </p>
     <v-btn class=" text-h4 mb-3 mt-5 background-color purple lighten-2 border-radius:20px ">Cadastro Aqui </v-btn>
   </v-container>

@@ -18,40 +18,51 @@
           v-model="group"
           active-class="purple darken-1"
         >
+        <router-link to="/">
           <v-list-item>
             <v-list-item-icon>
               <v-icon>mdi-home</v-icon>
             </v-list-item-icon>
             <v-list-item-title>Início</v-list-item-title>
           </v-list-item>
-
+        </router-link>
+           
+           <router-link to="/quem-Somos">
           <v-list-item>
             <v-list-item-icon>
               <v-icon>mdi-chart-bubble</v-icon>
             </v-list-item-icon>
-            <v-list-item-title>Quem Somos</v-list-item-title>
+            <v-list-item-title>Objetivo</v-list-item-title>
           </v-list-item>
-        
+           </router-link>
+             
+             <router-link to="/profissionais">
            <v-list-item>
             <v-list-item-icon>
               <v-icon>mdi-account-group</v-icon>
             </v-list-item-icon>
             <v-list-item-title>Profissionais</v-list-item-title>
           </v-list-item>
+             </router-link>
 
+          <router-link to="/cadastro">
           <v-list-item>
             <v-list-item-icon>
               <v-icon>mdi-account</v-icon>
             </v-list-item-icon>
-            <v-list-item-title>Cadastre-se</v-list-item-title>
+            <v-list-item-title>Cadastro</v-list-item-title>
           </v-list-item>
-
+          </router-link>
+           
+           <router-link to="/contato">
           <v-list-item>
             <v-list-item-icon>
               <v-icon>mdi-account-box</v-icon>
             </v-list-item-icon>
             <v-list-item-title>Contato</v-list-item-title>
           </v-list-item>
+           </router-link>
+
         </v-list-item-group>
       </v-list>
     </v-navigation-drawer>
